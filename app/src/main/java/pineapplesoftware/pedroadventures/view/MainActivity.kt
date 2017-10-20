@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity()
         try {
             mainBackgroundVideoView.setVideoURI(Uri.parse("android.resource://" + packageName + "/" + R.raw.start_video))
         } catch (e: Exception) {
-            Log.e("Error", e.message)
+//            Log.e("Error", e.message)
             e.printStackTrace()
         }
 
