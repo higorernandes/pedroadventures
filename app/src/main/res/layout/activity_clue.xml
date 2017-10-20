@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clueRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pineapplesoftware.pedroadventures.view.PrizeActivity"
+    android:scrollbars="none"
+    android:fadingEdge="vertical"
+    android:overScrollMode="never">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:alpha="0.8"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:overScrollMode="never"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="@dimen/default_extra_large_margin"
+        android:fadingEdge="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/clueTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amatica_sc_bold"
+                android:text="@string/clue_title"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/clueDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/clueTitleTextView"
+                android:layout_marginTop="@dimen/default_extra_large_margin"
+                android:layout_marginEnd="@dimen/default_medium_margin"
+                android:layout_marginStart="@dimen/default_medium_margin"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:maxLines="5"
+                android:text="Pois abacaxis possuem 79% de Vitamina C, são fontes de Vitamina B-6, Magnésio e Vitamina A, que ajudam no ganho de massa muscular, na digestão e no controle da coagulação sanguínea. "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/clueQuestionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/clueDescriptionTextView"
+                android:layout_marginTop="@dimen/default_medium_margin"
+                android:layout_marginEnd="@dimen/default_medium_margin"
+                android:layout_marginStart="@dimen/default_medium_margin"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:maxLines="5"
+                android:text="Pois abacaxis possuem 79% de Vitamina C, são fontes de Vitamina B-6, Magnésio e Vitamina A, que ajudam no ganho de massa muscular, na digestão e no controle da coagulação sanguínea. "
+                android:textAlignment="center"
+                android:textColor="@color/colorWhiteTransparent"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/clueAnswerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_large_margin"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_below="@+id/clueQuestionTextView"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:textAlignment="center"
+                android:hint="@string/answer_hint"
+                android:maxLines="1"
+                android:theme="@style/EditTextLightStyle"
+                android:inputType="textVisiblePassword"/>
+
+            <TextView
+                android:id="@+id/clueErrorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_below="@+id/clueAnswerEditText"
+                android:text="@string/clue_error"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:textColor="@color/colorError"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/clueNextButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/default_button_height"
+                android:layout_marginTop="@dimen/default_extra_large_margin"
+                android:layout_marginBottom="@dimen/default_extra_large_margin"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_below="@+id/clueErrorTextView"
+                android:layout_centerHorizontal="true"
+                android:text="@string/answer_challenge"
+                android:fontFamily="@font/amatica_sc_bold"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:background="@drawable/btn_transparent" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

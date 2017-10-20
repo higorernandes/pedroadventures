@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prizeRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pineapplesoftware.pedroadventures.view.PrizeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="@dimen/default_extra_large_margin"
+        android:fadingEdge="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/prizeTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_marginTop="@dimen/default_medium_margin"
+                android:fontFamily="@font/amatica_sc"
+                android:text="Parabéns!"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/prizeWonTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prizeTitleTextView"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_marginTop="@dimen/default_small_margin"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:text="@string/answer_description"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/prizeNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prizeWonTextView"
+                android:layout_marginEnd="@dimen/default_medium_margin"
+                android:layout_marginStart="@dimen/default_medium_margin"
+                android:layout_marginTop="@dimen/default_medium_margin"
+                android:fontFamily="@font/amatica_sc_bold"
+                android:maxLines="2"
+                android:text="Uma garrafa d\'água!"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="48sp" />
+
+            <RelativeLayout
+                android:id="@+id/prizeImageRelativeLayout"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/prizeNameTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/default_small_margin"
+                android:background="@drawable/img_circle">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/prizeImageView"
+                    android:layout_width="@dimen/image_default_size"
+                    android:layout_height="@dimen/image_default_size"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/prizeDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prizeImageRelativeLayout"
+                android:layout_marginEnd="@dimen/default_medium_margin"
+                android:layout_marginStart="@dimen/default_medium_margin"
+                android:layout_marginTop="@dimen/default_small_margin"
+                android:fontFamily="@font/shadows_into_light_two"
+                android:text="Pois abacaxis possuem 79% de Vitamina C, são fontes de Vitamina B-6, Magnésio e Vitamina A, que ajudam no ganho de massa muscular, na digestão e no controle da coagulação sanguínea. "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/prizeNextButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/default_button_height"
+                android:layout_below="@+id/prizeDescriptionTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/default_large_margin"
+                android:layout_marginStart="@dimen/default_large_margin"
+                android:layout_marginTop="@dimen/default_large_margin"
+                android:layout_marginBottom="@dimen/default_large_margin"
+                android:background="@drawable/btn_transparent_black"
+                android:fontFamily="@font/amatica_sc"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/next_challenge"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

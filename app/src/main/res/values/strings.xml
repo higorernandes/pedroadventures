@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Pedro Adventures</string>
+
+    <!-- Main -->
+    <string name="main_description">As aventuras de um \npirata dinossauro.</string>
+    <string name="start_adventure">Começar aventura</string>
+    <string name="main_creators">Feito com ❤️ por Thais Bittar e Higor Ernandes</string>
+
+    <!-- Clue -->
+    <string name="clue_title">Pergunta #{number}</string>
+    <string-array name="clue_list">
+        <item name="item1">Se sua pamonha tivesse uma carruagem, onde ela a colocaria?</item>
+        <item name="item2">O lugar da faculdade onde você deveria viver, mas também o lugar que você mais evita. Serve de cochilatório público depois do almoço.</item>
+        <item name="item3">Sou de pedra e estou sempre olhando para o norte/noroeste.</item>
+        <item name="item4">Sou uma máquina que tira um líquido preto do chão, do qual se faz chiclete, gasolina e Tupperwares. Tenho as cores da engenharia.</item>
+        <item name="item5">Já te alimentei, mas você me odeia. Hoje estou aposentado.</item>
+        <item name="item6">Aqueço a melhor especiaria italiana. Estou à beira da colina.</item>
+        <item name="item7">Somos três círculos que podem te deixar de ponta cabeça.</item>
+        <item name="item8">Sou parte de um telefone sem fio, mas com muita física. Já fizeram muitas festas próximo a mim.</item>
+        <item name="item9">Sou o lugar preferido da Ohana, dos Foodtrucks e das apresentações musicais na madrugada.</item>
+        <item name="item10">Sou sua segunda casa e o lugar do seu tesouro pirata.</item>
+    </string-array>
+    <string-array name="question_list">
+        <item name="item1">Pergunta no cartão: qual música te faz chutar a terra?</item>
+        <item name="item2">Pergunta no cartão: em que dia do mês a Ohana nasceu?</item>
+        <item name="item3">Pergunta no cartão: quanto foi a tequilada que você nunca pagou à Thais?</item>
+        <item name="item4">Pergunta no cartão: qual a hora mais relaxante do dia?</item>
+        <item name="item5">Pergunta no cartão: qual a música tema da nossa vida?</item>
+        <item name="item6">Pergunta no cartão: quantos episódios tem Naruto?</item>
+        <item name="item7">Pergunta no cartão: qual era cor da meia do Higor?</item>
+        <item name="item8">Pergunta no cartão: qual o nome do cachorro que você e a Thais resgataram?</item>
+        <item name="item9">Pergunta no cartão: qual o apelido da Marcela?</item>
+        <item name="item10">Pergunta no cartão: qual o pior filme do universo?</item>
+    </string-array>
+    <string-array name="answer_list">
+        <item name="item1">party in the usa</item>
+        <item name="item2">20</item>
+        <item name="item3">40</item>
+        <item name="item4">hora do poop</item>
+        <item name="item5">fucking perfect</item>
+        <item name="item6">720</item>
+        <item name="item7">azul</item>
+        <item name="item8">valak</item>
+        <item name="item9">churrosquinha</item>
+        <item name="item10">death note</item>
+    </string-array>
+    <string name="clue_error">Oops! Parece que você digitou algo errado, não é mesmo?</string>
+    <string name="answer_hint">Resposta</string>
+
+    <!-- Prizes -->
+    <string name="answer_description">Você ganhou:</string>
+    <string-array name="prize_congratz">
+        <item name="item1">Parabéns!</item>
+        <item name="item2">Voilà!</item>
+        <item name="item3">Muito bom!</item>
+        <item name="item4">UHUL \o/</item>
+        <item name="item5">Congratuleichons!</item>
+        <item name="item6">YES!</item>
+        <item name="item7">Mas gente!</item>
+        <item name="item8">Boa garoto!</item>
+        <item name="item9">Sugoi!</item>
+        <item name="item10">GG</item>
+    </string-array>
+    <string-array name="prize_names">
+        <item name="item1">Um tapa olho!</item>
+        <item name="item2">Uma bala!</item>
+        <item name="item3">Uma foto de um abacaxi!</item>
+        <item name="item4">Um chapéu de pirata!</item>
+        <item name="item5">Uma batata!</item>
+        <item name="item6">Um prego!</item>
+        <item name="item7">Um cinto!</item>
+        <item name="item8">Um ovo!</item>
+        <item name="item9">Uma garrafa d\'água!</item>
+        <item name="item10">Uma espada!</item>
+    </string-array>
+    <string-array name="prize_descriptions">
+        <item name="item1">Pra te ajudar a ver além mesmo quando houver dificuldades!</item>
+        <item name="item2">Para que sua vida seja mais doce!</item>
+        <item name="item3">Pois abacaxis possuem 79% de Vitamina C, são fontes de Vitamina B-6, Magnésio e Vitamina A, que ajudam no ganho de massa muscular, na digestão e no controle da coagulação sanguínea. </item>
+        <item name="item4">Porque o que vem de baixo não te atinge, porém o que vir de cima (tipo uma manga) pode machucar!</item>
+        <item name="item5">Pra você… porque sim!</item>
+        <item name="item6">Pra você deixar de ser como ele!</item>
+        <item name="item7">Pra você se sentir mais seguro!</item>
+        <item name="item8">Pra você lembrar de que o ovo e a galinha vieram juntos a este mundo, mas não antes da pomba!</item>
+        <item name="item9">Pra você lembrar de se hidratar! (hidratação é muito importante)</item>
+        <item name="item10">Pra que você enfrente seus desafios! \n\n Você completou seu set pirata +15 com reflect. Procure o seu baú do tesouro pela casa. \n\n Feliz aniversário e não se esqueça:</item>
+    </string-array>
+    <string name="next_challenge">Próximo desafio ></string>
+    <string name="answer_challenge">Responder</string>
+
+    <string name="final_advice">Mantenha-se hidratado!</string>
+    <string name="restart_button">Recomeçar</string>
+
+</resources>

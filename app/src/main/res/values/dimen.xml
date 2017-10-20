@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_extra_large_margin">64dp</dimen>
+    <dimen name="default_large_margin">32dp</dimen>
+    <dimen name="default_medium_margin">16dp</dimen>
+    <dimen name="default_small_margin">8dp</dimen>
+
+    <dimen name="default_button_height">60dp</dimen>
+
+    <dimen name="image_default_size">180dp</dimen>
+</resources>
